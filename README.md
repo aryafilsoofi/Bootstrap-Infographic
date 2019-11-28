@@ -1,8 +1,8 @@
 # Bootstrap Infographic
 A fully responsive Web page using only text and vector-based elements
 ## Authors
-* **[Arya Filsoofi]()**
+* **[Arya Filsoofi](https://aryafilsoofi.com)**
 ## Built With
-* [Bootstrap 4]()
+* [Bootstrap 4](https://getbootstrap.com/)
 ## Demo
 * https://bootstrap-inforgraphic.now.sh/
