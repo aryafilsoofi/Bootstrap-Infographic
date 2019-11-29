@@ -5,4 +5,4 @@ A fully responsive Web page using only text and vector-based elements
 ## Built With
 * [Bootstrap 4](https://getbootstrap.com/)
 ## Demo
-* https://bootstrap-inforgraphic.now.sh/
+* https://bootstrap-infographic.now.sh/

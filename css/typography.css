@@ -1,3 +1,14 @@
+@charset "UTF-8";
+
+@font-face {font-family: 'Sonus-Light';src: url('webfonts/3AA225_6_0.eot');src: url('webfonts/3AA225_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AA225_6_0.woff2') format('woff2'),url('webfonts/3AA225_6_0.woff') format('woff'),url('webfonts/3AA225_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BebasKai';src: url('webfonts/3AA225_8_0.eot');src: url('webfonts/3AA225_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AA225_8_0.woff2') format('woff2'),url('webfonts/3AA225_8_0.woff') format('woff'),url('webfonts/3AA225_8_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Aerohop';src: url('webfonts/3AA225_4_0.eot');src: url('webfonts/3AA225_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AA225_4_0.woff2') format('woff2'),url('webfonts/3AA225_4_0.woff') format('woff'),url('webfonts/3AA225_4_0.ttf') format('truetype');}
+
+ 
 /* 
 TO DO:
 1. add strong to index.htmk
@@ -10,7 +21,7 @@ html {
 
 h1 {
     font-family: 'BebasKai';
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 h2 {
@@ -20,21 +31,26 @@ h2 {
 
 h3 {
     font-family: 'Aerohop';
-    font-size: .6rem;
+    font-size: 1.1em;
+}
+
+h4 {
+    font-family: 'Aerohop';
+    font-size: .9em;
 }
 
 p {
     font-family: 'Sonus-Light';
-    font-size: .6rem;
+    font-size: .6em;
 }
 
 footer p {
-    font-size: .4rem;
-
+    font-size: .4em;
 }
 
 strong {
     font-family: 'Aerohop';
+    /* font-size: .8em; */
 }
 
 ul {
