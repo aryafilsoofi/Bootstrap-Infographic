@@ -1,0 +1,47 @@
+h1 {
+color:#fff;
+}
+
+h3 {
+    color:#f26649;
+}
+
+h4 {
+    color:#f26649;
+
+}
+
+p {
+    color: #807f83;
+}
+
+.module:nth-of-type(1),
+.table-module.a h4 {
+ background-color: #eef7e2;
+}
+
+.module:nth-of-type(2),
+.table-module.b h4 {
+    background-color: #ffeecb;
+}
+
+.module:nth-of-type(3),
+.table-module.c h4 {
+    background-color: #d9f4fa;
+}
+
+.module:nth-of-type(4) {
+    border: 1px solid #ececec;
+}
+
+.page-header {
+    background-color: #f26649;
+}
+
+.page-footer {
+    background-color: pink;
+}
+
+.page-body {
+    background-color: lime;
+}

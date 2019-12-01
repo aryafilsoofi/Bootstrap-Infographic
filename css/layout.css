@@ -1,3 +1,83 @@
+body {
+    margin: 0;
+    min-width: 400px;
+}
+
+/* HEADING ELEMENT STYLES */
+
+header {
+    align-items: center;
+}
+
+header div:nth-of-type(2) {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 30px;
+}
+
+h4 {
+    margin: 10px 0 0 0;
+}
+
+/* CONTAINER STYLES */
+
 .container {
-    display: grid;
+    max-width: 100%;
+    margin: 0;
+}
+
+.container section {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.module {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.module h3,
+.module p{
+    margin: 0;
+}
+
+
+/* TABLE LAYOUT STYLES */
+
+table,
+thead,
+tfoot,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-module{
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.table-module h4 {
+    width: 80%;
+    border-radius: 5px;
+}
+
+td > * {
+    margin: 0;
 }

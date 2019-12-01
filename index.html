@@ -8,237 +8,261 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/colour.css">
 
 </head>
 
 <body>
     <!-- <header></header> -->
-    <main>
+    <!-- <main> -->
 
 
-        <!-- PAGE 1 -->
-        <article class="wrapper">
-            <header>
-                <h1>UNDERSTANDING YOUR ELECTRICITY BILL</h1>
-            </header>
-            <section class="">
-                <!-- COLUMN 1 -->
-                <section class="">
-                    <div>
-                        <h3>ELECTRICITY</h3>
-                        <p>Most households and small businesses pay time-of-use
-                            electricity prices that appear on the “Electricity” line of the bill.
-                            As the regulator, the OEB sets electricity prices twice a year:
-                            May 1 and November 1. Prices are based on the estimated cost
-                            to supply electricity in the province for the next six months.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>DELIVERY</h3>
-                        <p>This is made up of two separate costs. Both are approved by
-                            the OEB.</p>
-                        <h4>1. TRANSMISSION</h4>
-                        <p>Power flows from Ontario power plants and other sources,
-                            through transmission lines, to your local utility. Every home in
-                            Ontario pays the same rate to cover these costs.</p>
-                        <h4>2. DISTRIBUTION</h4>
-                        <p>A distribution company (also called “distributor” or “local
-                            utility”) delivers electricity to homes and businesses through
-                            a network of power lines within the communities it serves.</p>
-                    </div>
-                    <div>
-                        <h3>REGULATORY</h3>
-                        <p>This is made up of the costs to administer the wholesale
-                            electricity system and maintain the reliability of the provincial
-                            grid. It also includes costs for funding Ministry of Energy
-                            conservation, renewable and low-income energy programs.</p>
-                    </div>
-                    <div>
-                        <h3>GLOBAL ADJUSTMENT AND ENERGY CONTRACTS</h3>
-                        <p>If you buy electricity from your utility, the electricity price
-                            already includes your share of the “Global Adjustment.” If
-                            you sign a contract with an energy retailer, you pay the
-                            agreed-upon contract price (not time-of-use or tiered
-                            prices set by the OEB). You will also need to pay your
-                            share of the Global Adjustment. It will appear as a new,
-                            separate line on your utility bill.</p>
-                    </div>
-                    <aside>
-                        <p><strong>USE OUR ONLINE CALCULATOR</strong> to help you better understand your
-                            electricity bill and how to manage costs by reducing your energy
-                            use or shifting it to less expensive times. Also, see what your bill
-                            might look like based on a contract with an energy retailer.</p>
-                        <p>Try it now at <a
-                                href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a></p>
-                    </aside>
-                </section>
-                <!-- COLUMN 2 -->
-                <section class="">
-                    <!-- BILL STATEMENT TABLE -->
-                    <table>
-                        <thead>
-                            <tr>
+    <!-- PAGE 1 -->
+    <article class="container">
+        <header class="row page-header">
+            <div class="col-9">
+                <h1>UNDERSTANDING<br>YOUR ELECTRICITY BILL</h1>
+            </div>
+            <div class="col-3"> <object data="svgs/lightbulb.svg" type="image/svg+xml" width="50px"
+                    height="200px"></object>
+            </div>
+        </header>
+        <section class="row">
+            <!-- COLUMN 1 -->
+            <section class="col-sm">
+                <div class="row module">
+                    <h3>ELECTRICITY</h3>
+                    <p>Most households and small businesses pay time-of-use
+                        electricity prices that appear on the “Electricity” line of the bill.
+                        As the regulator, the OEB sets electricity prices twice a year:
+                        May 1 and November 1. Prices are based on the estimated cost
+                        to supply electricity in the province for the next six months.
+                    </p>
+                </div>
+                <div class="row module">
+                    <h3>DELIVERY</h3>
+                    <p>This is made up of two separate costs. Both are approved by
+                        the OEB.</p>
+                    <h4>1. TRANSMISSION</h4>
+                    <p>Power flows from Ontario power plants and other sources,
+                        through transmission lines, to your local utility. Every home in
+                        Ontario pays the same rate to cover these costs.</p>
+                    <h4>2. DISTRIBUTION</h4>
+                    <p>A distribution company (also called “distributor” or “local
+                        utility”) delivers electricity to homes and businesses through
+                        a network of power lines within the communities it serves.</p>
+                </div>
+                <div class="row module">
+                    <h3>REGULATORY</h3>
+                    <p>This is made up of the costs to administer the wholesale
+                        electricity system and maintain the reliability of the provincial
+                        grid. It also includes costs for funding Ministry of Energy
+                        conservation, renewable and low-income energy programs.</p>
+                </div>
+                <div class="row module">
+                    <h3>GLOBAL ADJUSTMENT AND ENERGY CONTRACTS</h3>
+                    <p>If you buy electricity from your utility, the electricity price
+                        already includes your share of the “Global Adjustment.” If
+                        you sign a contract with an energy retailer, you pay the
+                        agreed-upon contract price (not time-of-use or tiered
+                        prices set by the OEB). You will also need to pay your
+                        share of the Global Adjustment. It will appear as a new,
+                        separate line on your utility bill.</p>
+                </div>
+
+            </section>
+            <!-- COLUMN 2 -->
+            <section class="col-sm">
+                <!-- BILL STATEMENT TABLE -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
                                 <h2>MONTHLY BILL STATEMENT</h2>
-                            </tr>
-                            <tr>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
                                 <h4>Account Number:</h4>
                                 <p>000 000 000 000 0000 0</p>
-                            </tr>
-                            <tr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 <h4>Meter Number:</h4>
                                 <p>0000000</p>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
                                 <h3>Your Electricity Charges:</h3>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h4>ELECTRICITY</h4>
-                                    <ul>
-                                        <li>135 kWh On-peak @ X.X ¢ /kWh</li>
-                                        <li>127 kWh Mid-peak @ X.X ¢ /kWh</li>
-                                        <li>488 kWh Off-peak @ X.X ¢ /kWh</li>
-                                    </ul>
-                                </td>
-                                <td>X.XX</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h4>DELIVERY</h4>
-                                </td>
-                                <td>X.XX</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h4>REGULATORY</h4>
-                                </td>
-                                <td>X.XX</td>
-                            </tr>
-                            <tr>
-                                <td>DEBT RETIREMENT CHARGE</td>
-                                <td>0.00</td>
-                            </tr>
-                            <tr>
-                                <td>Debt Retirement Charge exemption saved you $X.XX
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Your Total Electricity Charges</td>
-                                <td>X.XX</td>
-                            </tr>
-                            <tr>
-                                <td>H.S.T.</td>
-                                <td>x.xx</td>
-                            </tr>
-                            <tr>
-                                <td>Total Amount</td>
-                                <td>$X.XX</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td> The Debt Retirement Charge was removed for certain residential consumption
-                                    after Dec. 31, 2015. Learn more at <a
-                                        href="https://Ontario.ca/DRC">Ontario.ca/DRC</a>
-                                </td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                    <div>
-                        <p>TO LEARN MORE ABOUT
-                            THE ITEMS ON YOUR BILL, VISIT
-                            <a href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
-                        </p>
-                    </div>
-                    <div>
-                        <h2>BILL CALCULATOR</h2>
-                        <p>Use our calculator to estimate
-                            your monthly <strong>ELECTRICITY</strong>
-                            and <strong>NATURAL GAS BILLS.</strong></p>
-                    </div>
-                </section>
-            </section>
-            <footer>
-                <h5>Ontario Energy Board</h5>
-                <h2>TAKE CHARGE</h2>
-            </footer>
-        </article>
-
-
-
-
-
-        <!-- PAGE 2 -->
-        <article class="wrapper">
-            <!-- PAGE HEADER -->
-            <header>
-                <h1>UNDERSTANDING
-                    YOUR ELECTRICITY BILL</h1>
-            </header>
-            <!-- SECTION 1 -->
-            <section class="">
-                <header>
-                    <h2>BE AN INFORMED ENERGY CONSUMER.
-                        WE CAN HELP. </h2>
-                </header>
-                <ul>
-                    <li>For information on a range of topics visit</li>
-                    <li>OntarioEnergyBoard.ca/Consumers</li>
-                    <br>
-                    <li>Contact CONSUMER RELATIONS</li>
-                    <li>(open Monday to Friday, 8:30 a.m. to 5 p.m.)</li>
-                    <li>1-877-632-2727 (toll-free within Ontario)</li>
-                    <li>416-314-2455 (within Greater Toronto Area or from outside Canada)</li>
-                    <li>ConsumerRelations@OntarioEnergyBoard.ca</li>
-                    <br>
-                    <li>@OntEnergyBoard</li>
-                </ul>
-                <footer>
-                    <p>The Ontario Energy Board is an independent and impartial public regulatory agency. We make
-                        decisions that serve the public interest. Our goal is to promote a viable, sustainable
-                        and efficient energy sector that provides you with reliable energy services that are cost
-                        effective.
-                        Ce document est aussi disponible en français. Visit our website or contact Consumer Relations.
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="table-module a">
+                                <h4>ELECTRICITY</h4>
+                                <p>X.XX</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>135 kWh On-peak @ X.X ¢ /kWh</td>
+                        </tr>
+                        <tr>
+                            <td>127 kWh Mid-peak @ X.X ¢ /kWh</td>
+                        </tr>
+                        <tr>
+                            <td>488 kWh Off-peak @ X.X ¢ /kWh</td>
+                        </tr>
+                        <tr>
+                            <td class="table-module b">
+                                <h4>DELIVERY</h4>
+                            </td>
+                            <td>X.XX</td>
+                        </tr>
+                        <tr>
+                            <td class="table-module c">
+                                <h4>REGULATORY</h4>
+                            </td>
+                            <td>X.XX</td>
+                        </tr>
+                        <tr>
+                            <td>DEBT RETIREMENT CHARGE</td>
+                            <td>0.00</td>
+                        </tr>
+                        <tr>
+                            <td>Debt Retirement Charge exemption saved you $X.XX
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your Total Electricity Charges</td>
+                            <td>X.XX</td>
+                        </tr>
+                        <tr>
+                            <td>H.S.T.</td>
+                            <td>x.xx</td>
+                        </tr>
+                        <tr>
+                            <td>Total Amount</td>
+                            <td>$X.XX</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td> The Debt Retirement Charge was removed for certain residential consumption
+                                after Dec. 31, 2015. Learn more at <a href="https://Ontario.ca/DRC">Ontario.ca/DRC</a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="row">
+                    <p>TO LEARN MORE ABOUT
+                        THE ITEMS ON YOUR BILL, VISIT
+                        <a href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
                     </p>
-                </footer>
+                </div>
             </section>
-            <!-- SECTION 2 -->
-            <section class="">
-                <header>
-                    <h2>TIME-OF-USE ELECTRICITY PRICES
-                    </h2>
-                </header>
-                <p>Households and small businesses in Ontario pay time-of-use prices for electricity that change
-                    according to the
-                    <strong>TIME OF DAY</strong> and <strong>DAY OF THE WEEK.</strong> The peak periods also change
-                    by <strong>SEASON</strong>.</p>
-                <p>Your smart meter tells your utility exactly how much power you use and when you use it. With
-                    this information, your
-                    utility charges you for the amount of power you use at off-peak, mid-peak and on-peak times.</p>
-                <h3>REASONS FOR DIFFERENT PRICES</h3>
-                <p><strong>WHEN DEMAND IS LOW</strong> and fewer people are using power, lower-cost electricity is
-                    available from
-                    sources like nuclear
-                    and large hydroelectric systems.</p>
-                <p><strong>WHEN DEMAND RISES</strong> during the day, the province’s supply of lower-cost
-                    electricity is used up,
-                    and more expensive
-                    sources need to be used.</p>
-            </section>
-            <!-- SECTION 3 -- GRAPHS -->
-            <section class="">
-                <!-- GRAPH HEADERS -->
-                <header>
-                    <h3>PRICE PERIODS</h3>
-                    <h3>WEEKDAYS</h3>
-                    <h3>WEEKENDS & HOLIDAYS</h3>
-                </header>
+        </section>
+        <aside class="row">
+            <div class="col">
+                <p><strong>USE OUR ONLINE CALCULATOR</strong> to help you better understand your
+                    electricity bill and how to manage costs by reducing your energy
+                    use or shifting it to less expensive times. Also, see what your bill
+                    might look like based on a contract with an energy retailer.</p>
+                <p>Try it now at <a href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
+                </p>
+            </div>
+            <div class="col">
+                <h2>BILL CALCULATOR</h2>
+                <p>Use our calculator to estimate
+                    your monthly <strong>ELECTRICITY</strong>
+                    and <strong>NATURAL GAS BILLS.</strong></p>
+            </div>
+        </aside>
+        <footer class="row page-footer">
+            <h5>Ontario Energy Board</h5>
+            <h2>TAKE CHARGE</h2>
+        </footer>
+    </article>
+
+
+    <!-- PAGE 2 -->
+    <article class="container">
+        <!-- PAGE HEADER -->
+        <header class="row page-header">
+            <div class="col-9">
+                <h1>UNDERSTANDING<br>YOUR ELECTRICITY BILL</h1>
+            </div>
+            <div class="col-3"> <object data="svgs/lightbulb.svg" type="image/svg+xml" width="50px"
+                    height="200px"></object>
+            </div>
+        </header>
+        <!-- SECTION 1 -->
+        <section class="row">
+            <header>
+                <h2>BE AN INFORMED ENERGY CONSUMER.
+                    WE CAN HELP. </h2>
+            </header>
+            <ul>
+                <li>For information on a range of topics visit</li>
+                <li>OntarioEnergyBoard.ca/Consumers</li>
+                <br>
+                <li>Contact CONSUMER RELATIONS</li>
+                <li>(open Monday to Friday, 8:30 a.m. to 5 p.m.)</li>
+                <li>1-877-632-2727 (toll-free within Ontario)</li>
+                <li>416-314-2455 (within Greater Toronto Area or from outside Canada)</li>
+                <li>ConsumerRelations@OntarioEnergyBoard.ca</li>
+                <br>
+                <li>@OntEnergyBoard</li>
+            </ul>
+            <footer>
+                <p>The Ontario Energy Board is an independent and impartial public regulatory agency. We make
+                    decisions that serve the public interest. Our goal is to promote a viable, sustainable
+                    and efficient energy sector that provides you with reliable energy services that are cost
+                    effective.
+                    Ce document est aussi disponible en français. Visit our website or contact Consumer Relations.
+                </p>
+            </footer>
+        </section>
+        <!-- SECTION 2 -->
+        <section class="row">
+            <header>
+                <h2>TIME-OF-USE ELECTRICITY PRICES
+                </h2>
+            </header>
+            <p>Households and small businesses in Ontario pay time-of-use prices for electricity that change
+                according to the
+                <strong>TIME OF DAY</strong> and <strong>DAY OF THE WEEK.</strong> The peak periods also change
+                by <strong>SEASON</strong>.</p>
+            <p>Your smart meter tells your utility exactly how much power you use and when you use it. With
+                this information, your
+                utility charges you for the amount of power you use at off-peak, mid-peak and on-peak times.</p>
+
+            <h3>REASONS FOR DIFFERENT PRICES</h3>
+            <p><strong>WHEN DEMAND IS LOW</strong> and fewer people are using power, lower-cost electricity is
+                available from
+                sources like nuclear
+                and large hydroelectric systems.</p>
+            <p><strong>WHEN DEMAND RISES</strong> during the day, the province’s supply of lower-cost
+                electricity is used up,
+                and more expensive
+                sources need to be used.</p>
+        </section>
+        <!-- SECTION 3 -- GRAPHS -->
+        <section class="row">
+            <!-- GRAPH HEADERS -->
+            <header class="row">
+                <h3>PRICE PERIODS</h3>
+                <h3>WEEKDAYS</h3>
+                <h3>WEEKENDS & HOLIDAYS</h3>
+            </header>
+            <div class="row">
                 <!-- GRAPH LEGEND -->
-                <div class="col-sm">
+                <div class="col-sm col-3">
                     <ul>
                         <li>
                             <ul>
@@ -276,7 +300,7 @@
                     </ul>
                 </div>
                 <!-- GRAPH 1 -->
-                <div class="col-sm">
+                <div class="col-sm col-3">
                     <div>
                         <!-- GRAPH 1 GOES HERE -->
                     </div>
@@ -292,7 +316,7 @@
                     </p>
                 </div>
                 <!-- GRAPH 2 -->
-                <div class="col-sm">
+                <div class="col-sm col-3">
                     <div>
                         <!-- GRAPH 2 GOES HERE -->
                     </div>
@@ -308,48 +332,52 @@
                         people get home from work</p>
                 </div>
                 <!-- GRAPH 3 -->
-                <div class="col-sm">
+                <div class="col-sm col-3">
                     <div>
                         <!-- GRAPH 3 GOES HERE -->
                     </div>
                 </div>
-            </section>
-            <!-- SECTION 4 -->
-            <section class="">
-                <h2>MANAGING YOUR ELECTRICITY USE</h2>
-                <p>Did you know about 60% of energy costs in a typical home are spent on heating and cooling? To manage
-                    electricity use, try
-                    conserving power and shifting some usage to evenings and weekends. Visit these websites for more
-                    tips:</p>
-                <ul>
-                    <li>
-                        <ul>
-                            <li>10 Smart Meter Lane
-                            </li>
-                            <li><a href="https://ieso.ca/house">ieso.ca/house</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>saveONenergy</li>
-                            <li><a href="https://saveonenergy.ca">saveonenergy.ca</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>Ministry of Energy</li>
-                            <li><a href="https://ontario.ca/energy">ontario.ca/energy</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-        </article>
+
+
+            </div>
+
+        </section>
+        <!-- SECTION 4 -->
+        <section class="row">
+            <h2>MANAGING YOUR ELECTRICITY USE</h2>
+            <p>Did you know about 60% of energy costs in a typical home are spent on heating and cooling? To manage
+                electricity use, try
+                conserving power and shifting some usage to evenings and weekends. Visit these websites for more
+                tips:</p>
+            <ul>
+                <li>
+                    <ul>
+                        <li>10 Smart Meter Lane
+                        </li>
+                        <li><a href="https://ieso.ca/house">ieso.ca/house</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>saveONenergy</li>
+                        <li><a href="https://saveonenergy.ca">saveonenergy.ca</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>Ministry of Energy</li>
+                        <li><a href="https://ontario.ca/energy">ontario.ca/energy</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </article>
 
 
 
 
-    </main>
+    <!-- </main> -->
     <!-- <footer></footer> -->
 </body>
 
