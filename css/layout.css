@@ -1,6 +1,7 @@
 body {
-    margin: 0;
-    min-width: 400px;
+    margin: 50px auto;
+    min-width: 450px;
+    max-width: 1000px;
 }
 
 /* HEADING ELEMENT STYLES */
@@ -27,6 +28,7 @@ h4 {
 .container {
     max-width: 100%;
     margin: 0;
+    background-color: red;
 }
 
 .container section {
@@ -50,11 +52,9 @@ h4 {
 
 table,
 thead,
-tfoot,
-tr,
-th,
-td {
-    border: 1px solid black;
+tfoot
+{
+    border: 1px solid #807f83;
     border-collapse: collapse;
 }
 
