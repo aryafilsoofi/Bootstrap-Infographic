@@ -1,12 +1,19 @@
 body {
-    margin: 50px auto;
+    margin:  auto;
     min-width: 450px;
     max-width: 1000px;
 }
 
+
+.page-header {
+    margin-top: 60px;
+}
+
+
 /* HEADING ELEMENT STYLES */
 
 header {
+    
     align-items: center;
 }
 
@@ -28,7 +35,6 @@ h4 {
 .container {
     max-width: 100%;
     margin: 0;
-    background-color: red;
 }
 
 .container section {
@@ -36,10 +42,20 @@ h4 {
     padding: 10px;
 }
 
+.container section.row {
+    margin-top: 50px;
+}
+
+/* MODULE STYLES */
+
 .module {
     border-radius: 15px;
-    padding: 10px;
+    padding: 10px 15PX;
     margin-bottom: 20px;
+}
+
+h2 {
+    margin: 5px 0 10px 0;
 }
 
 .module h3,
@@ -47,26 +63,6 @@ h4 {
     margin: 0;
 }
 
-
-/* TABLE LAYOUT STYLES */
-
-table,
-thead,
-tfoot
-{
-    border: 1px solid #807f83;
-    border-collapse: collapse;
-}
-
-th {
-    text-align: left;
-}
-
-td {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .table-module{
     border-radius: 15px;
@@ -78,6 +74,53 @@ td {
     border-radius: 5px;
 }
 
+
+/* TABLE LAYOUT STYLES */
+
+table,
+thead
+{
+    border: 1px solid #807f83;
+    border-collapse: collapse;
+}
+
+tfoot {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 td > * {
     margin: 0;
 }
+
+thead h4 {
+
+}
+
+.border-top {
+    border-top: 1px solid #807f83;
+}
+
+tfoot td {
+    padding: 4px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+

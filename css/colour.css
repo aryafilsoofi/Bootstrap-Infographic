@@ -1,8 +1,12 @@
 body {
     background-color: #666;
-
 }
 
+.container {
+    background-color: #fff;
+    box-shadow: 0 5px 9px #000 ;
+
+}
 
 h1 {
 color:#fff;
@@ -41,11 +45,44 @@ p {
 }
 
 
+table {
+    color: #807f83;
+    box-shadow: 0 2px 10px #999 ;
+}
+
 thead th{
     color: #fff;
     background-color: #f26649;
 }
 
+thead h4 {
+    color: #807f83;
+}
+
+table h3 {
+    color: #333;
+}
+
+td.border-top {
+    color: #333;
+
+}
+
+tbody tr:last-of-type td {
+    background-color: #e6e5e6;
+    
+}
+
+tbody tr td p {
+color: #333;
+}
+
+
+.small-text a {
+    text-decoration: none;
+    color: #807f83;
+
+}
 
 .page-header {
     background-color: #f26649;
