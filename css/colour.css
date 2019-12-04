@@ -1,96 +1,71 @@
-body {
-    background-color: #666;
-}
-
-.container {
-    background-color: #fff;
-    box-shadow: 0 5px 9px #000 ;
-
-}
-
-h1 {
-color:#fff;
-}
-
-h3 {
-    color:#f26649;
-}
-
-h4 {
-    color:#f26649;
-
-}
-
-p {
-    color: #807f83;
-}
-
-.module:nth-of-type(1),
-.table-module.a h4 {
- background-color: #eef7e2;
-}
-
-.module:nth-of-type(2),
-.table-module.b h4 {
-    background-color: #ffeecb;
-}
-
-.module:nth-of-type(3),
-.table-module.c h4 {
-    background-color: #d9f4fa;
-}
-
-.module:nth-of-type(4) {
-    border: 1px solid #ececec;
-}
-
-
-table {
-    color: #807f83;
-    box-shadow: 0 2px 10px #999 ;
-}
-
-thead th{
-    color: #fff;
-    background-color: #f26649;
-}
-
-thead h4 {
-    color: #807f83;
-}
-
-table h3 {
-    color: #333;
-}
-
-td.border-top {
-    color: #333;
-
-}
-
-tbody tr:last-of-type td {
-    background-color: #e6e5e6;
+.blue {
+    color:#0194d3;
+    }
     
-}
-
-tbody tr td p {
-color: #333;
-}
-
-
-.small-text a {
-    text-decoration: none;
-    color: #807f83;
-}
-
-.page-header {
-    background-color: #f26649;
-}
-
-.page-footer {
-    background-color: pink;
-}
-
-.page-body {
-    background-color: lime;
-}
+    .container {
+    background-color:#fff;
+    box-shadow:0 5px 9px #000;
+    }
+    
+    .module:nth-of-type(1),.table-module.a h4 {
+    background-color:#eef7e2;
+    }
+    
+    .module:nth-of-type(2),.table-module.b h4 {
+    background-color:#ffeecb;
+    }
+    
+    .module:nth-of-type(3),.table-module.c h4 {
+    background-color:#d9f4fa;
+    }
+    
+    .module:nth-of-type(4) {
+    border:1px solid #ececec;
+    }
+    
+    .page-body {
+    background-color:lime;
+    }
+    
+    .page-header {
+    background-color:#f26649;
+    }
+    
+    .small-text a {
+    color:#807f83;
+    text-decoration:none;
+    }
+    
+    body {
+    background-color:#666;
+    }
+    
+    h1 {
+    color:#fff;
+    }
+    
+    h3,h4,.orng {
+    color:#f26649;
+    }
+    
+    p,thead h4 {
+    color:#807f83;
+    }
+    
+    table {
+    box-shadow:0 2px 10px #999;
+    color:#807f83;
+    }
+    
+    table h3,td.border-top,tbody tr td p {
+    color:#333;
+    }
+    
+    tbody tr:last-of-type td {
+    background-color:#e6e5e6;
+    }
+    
+    thead th {
+    background-color:#f26649;
+    color:#fff;
+    }

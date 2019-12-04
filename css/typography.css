@@ -8,12 +8,6 @@
 
 @font-face {font-family: 'Aerohop';src: url('webfonts/3AA225_4_0.eot');src: url('webfonts/3AA225_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AA225_4_0.woff2') format('woff2'),url('webfonts/3AA225_4_0.woff') format('woff'),url('webfonts/3AA225_4_0.ttf') format('truetype');}
 
- 
-/* 
-TO DO:
-1. add strong to index.htmk
-2. add font fallbacks
-*/
 
 html {
     font-size: 16px;
@@ -86,5 +80,3 @@ strong {
 ul {
 list-style: none;
 }
-
-

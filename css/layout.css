@@ -1,149 +1,214 @@
-body {
-    margin:  auto;
-    min-width: 450px;
-    max-width: 1000px;
-}
-
-
-.page-header {
-    margin-top: 60px;
-}
-
-
-/* HEADING ELEMENT STYLES */
-
-header {
-    
-    align-items: center;
-}
-
-header div:nth-of-type(2) {
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    margin-left: 30px;
-}
-
-h4 {
-    margin: 10px 0 0 0;
-}
-
-/* CONTAINER STYLES */
-
-.container {
-    max-width: 100%;
-    margin: 0;
-}
-
-.container section {
-    margin: 0 10px;
-    padding: 10px;
-}
-
-.container section.row {
-    margin-top: 50px;
-}
-
-/* MODULE STYLES */
-
-.module {
-    border-radius: 15px;
-    padding: 10px 15PX;
-    margin-bottom: 20px;
-}
-
-h2 {
-    margin: 5px 0 10px 0;
-}
-
-.module h3,
-.module p{
-    margin: 0;
-}
-
-
-.table-module{
-    border-radius: 15px;
-}
-
-.table-module h4 {
-    width: 80%;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-
-/* TABLE LAYOUT STYLES */
-
-section > table {
-   
-}
-
-table,
-thead
+body
 {
-    border: 1px solid #807f83;
-    border-collapse: collapse;
+  min-width:450px;
+  max-width:1000px;
+  margin:auto;
 }
 
-tfoot {
-    border-collapse: collapse;
+.page-header
+{
+  margin-top:60px;
 }
 
-th {
-    text-align: left;
-    padding: 10px;
+header
+{
+  align-items:center;
 }
 
-td {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+header div:nth-of-type(2)
+{
+  text-align:center;
 }
 
-td > * {
-    margin: 0;
-}
-.p-0 {
-    padding: 0;
+header h1
+{
+  margin:0 0 0 30px;
 }
 
-.m-l-10 {
-    margin-left: 10px;
+.container
+{
+  max-width:100%;
+  margin:0;
 }
 
-th h3 {
-margin: 10px 0 0 0;
+.container section
+{
+  margin:0 10px;
+  padding:10px;
 }
 
-.border-top {
-    border-top: 1px solid #807f83;
+.container section.row
+{
+  margin-top:20px;
 }
 
-tfoot td {
-    padding: 4px;
-    margin: 20px;
-    border: 1px solid #807f83;
+.module
+{
+  border-radius:15px;
+  margin-bottom:20px;
+  padding:10px 15px;
 }
 
-.wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+h2
+{
+  margin:5px 0 10px;
 }
 
-tbody tr:last-of-type td {
-    margin-top: 10px;
+.table-module
+{
+  border-radius:15px;
 }
 
-.m-lr-10 {
-    margin: 0 10px;
+.table-module h4
+{
+  width:80%;
+  border-radius:5px;
+  padding:5px;
 }
 
-.p-custom {
-    padding: 5px 10px;
+table,thead
+{
+  border:1px solid #807f83;
+  border-collapse:collapse;
 }
 
+tfoot
+{
+  border-collapse:collapse;
+}
+
+th
+{
+  text-align:left;
+  padding:10px;
+}
+
+td
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+}
+
+.p-0
+{
+  padding:0;
+}
+
+.border-top
+{
+  border-top:1px solid #807f83;
+}
+
+tfoot td
+{
+  border:1px solid #807f83;
+  margin:20px;
+  padding:4px;
+}
+
+.wrap
+{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+}
+
+tbody tr:last-of-type td
+{
+  margin-top:10px;
+}
+
+.m-lr-10
+{
+  margin:0 10px;
+}
+
+div.row.m-lr-10 p
+{
+  max-width:300px;
+  margin:0 0 0 10px;
+}
+
+div.row.m-lr-10
+{
+  text-align:left;
+  margin-top:20px;
+}
+
+.svg-module h2,.svg-module p
+{
+  position:relative;
+  top:-10px;
+  margin:0;
+}
+
+.row.page-footer.m-lr-10 .col .row
+{
+  align-items:center;
+  height:100%;
+}
+
+.row.page-footer.m-lr-10 .col:nth-of-type(2) .row
+{
+  margin-left:300px;
+}
+
+td.p-0.m-l-10
+{
+  line-height:1;
+}
+
+table ~ div.row.m-lr-10
+{
+  min-width:340px;
+  margin-left:0;
+  flex:2, 1, auto;
+}
+
+.svg.half-circle,.svg.ontario
+{
+  margin-right:10px;
+}
+
+footer.d-flex
+{
+  padding:10px;
+}
+
+.max-width
+{
+  max-width:500px;
+}
+
+article > section:last-of-type
+{
+  flex-wrap:wrap;
+  flex:2, 1, auto;
+}
+
+h4,th h3
+{
+  margin:10px 0 0;
+}
+
+.module h3,.module p,td > *,article > section:last-of-type div:last-of-type div:last-of-type p,article > section:last-of-type div:last-of-type div:last-of-type h2
+{
+  margin:0;
+}
+
+.table-module.a,.p-custom
+{
+  padding:5px 10px;
+}
+
+.m-l-10,.row.page-footer.m-lr-10 .col .row h5,.row.page-footer.m-lr-10 .col .row h2
+{
+  margin-left:10px;
+}
+
+article > section:last-of-type div,article > section:last-of-type div:last-of-type div:last-of-type
+{
+  max-width:400px;
+}

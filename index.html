@@ -172,225 +172,67 @@
                         </tr>
                     </tfoot>
                 </table>
-                <div class="row">
-                    <p>TO LEARN MORE ABOUT
-                        THE ITEMS ON YOUR BILL, VISIT
-                        <a href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
+                <div class="row m-lr-10 ">
+
+                    <object data="svgs/arrow.svg" type="image/svg+xml" class="svg arrow"></object>
+                    <p class="orng"><b>TO LEARN MORE ABOUT
+                            <br>
+                            THE ITEMS ON YOUR BILL, VISIT
+                            <a class="blue"
+                                href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
+                        </b>
                     </p>
                 </div>
             </section>
         </section>
-        <aside class="row">
-            <div class="col">
-                <p><strong>USE OUR ONLINE CALCULATOR</strong> to help you better understand your
+        <section class="row d-flex justify-content-between align-items-start">
+            <div class="d-flex flex-fill justify-content-center">
+                <p><strong class="orng">USE OUR ONLINE CALCULATOR</strong> to help you better understand your
                     electricity bill and how to manage costs by reducing your energy
                     use or shifting it to less expensive times. Also, see what your bill
-                    might look like based on a contract with an energy retailer.</p>
-                <p>Try it now at <a href="https://OntarioEnergyBoard.ca/Consumers">OntarioEnergyBoard.ca/Consumers</a>
+                    might look like based on a contract with an energy retailer.
+                    <br>
+                    <br>
+                    Try it now at <a class="blue"
+                        href="https://OntarioEnergyBoard.ca/Consumers"><strong>OntarioEnergyBoard.ca/Consumers</strong></a>
                 </p>
             </div>
-            <div class="col">
-                <h2>BILL CALCULATOR</h2>
-                <p>Use our calculator to estimate
-                    your monthly <strong>ELECTRICITY</strong>
-                    and <strong>NATURAL GAS BILLS.</strong></p>
+
+            <div class="d-flex flex-fill align-items-center justify-content-center">
+                <object class="svg calc" data="svgs/calculator.svg" type=""></object>
+                <div class="d-flex"></div>
+                <div class="col-md">
+                    <h2><span class="blue">BILL</span><span class="orng"> CALCULATOR</span></h2>
+                    <p>Use our calculator to estimate
+                        your monthly <strong class="orng">ELECTRICITY</strong>
+                        and <strong class="blue">NATURAL GAS BILLS.</strong></p>
+                </div>
             </div>
-        </aside>
-        <footer class="row page-footer">
-            <h5>Ontario Energy Board</h5>
-            <h2>TAKE CHARGE</h2>
+        </section>
+
+        <!--  -->
+
+        <div class="row d-flex justify-content-center align-items-start">
+            <canvas id="lineChart" height="100%" width="150%"></canvas>
+        </div>
+
+
+        <!--  -->
+
+        <footer class="d-flex  justify-content-between">
+            <div class="d-flex align-items-center">
+                <object class="svg ontario" data="svgs/ontario.svg" type=""></object>
+                <h5>Ontario Energy Board</h5>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <object class="svg half-circle" data="svgs/half-circle.svg" type=""></object>
+                <h2>TAKE<br>CHARGE</h2>
+            </div>
         </footer>
     </article>
-
-
-    <!-- PAGE 2 -->
-    <article class="container">
-        <!-- PAGE HEADER -->
-        <header class="row page-header">
-            <div class="col-9">
-                <h1>UNDERSTANDING<br>YOUR ELECTRICITY BILL</h1>
-            </div>
-            <div class="col-3"> <object data="svgs/lightbulb.svg" type="image/svg+xml" class="svg bulb"></object>
-            </div>
-        </header>
-        <!-- SECTION 1 -->
-        <section class="row">
-            <header>
-                <h2>BE AN INFORMED ENERGY CONSUMER.
-                    WE CAN HELP. </h2>
-            </header>
-            <ul>
-                <li>For information on a range of topics visit</li>
-                <li>OntarioEnergyBoard.ca/Consumers</li>
-                <br>
-                <li>Contact CONSUMER RELATIONS</li>
-                <li>(open Monday to Friday, 8:30 a.m. to 5 p.m.)</li>
-                <li>1-877-632-2727 (toll-free within Ontario)</li>
-                <li>416-314-2455 (within Greater Toronto Area or from outside Canada)</li>
-                <li>ConsumerRelations@OntarioEnergyBoard.ca</li>
-                <br>
-                <li>@OntEnergyBoard</li>
-            </ul>
-            <footer>
-                <p>The Ontario Energy Board is an independent and impartial public regulatory agency. We make
-                    decisions that serve the public interest. Our goal is to promote a viable, sustainable
-                    and efficient energy sector that provides you with reliable energy services that are cost
-                    effective.
-                    Ce document est aussi disponible en français. Visit our website or contact Consumer Relations.
-                </p>
-            </footer>
-        </section>
-        <!-- SECTION 2 -->
-        <section class="row">
-            <header>
-                <h2>TIME-OF-USE ELECTRICITY PRICES
-                </h2>
-            </header>
-            <p>Households and small businesses in Ontario pay time-of-use prices for electricity that change
-                according to the
-                <strong>TIME OF DAY</strong> and <strong>DAY OF THE WEEK.</strong> The peak periods also change
-                by <strong>SEASON</strong>.</p>
-            <p>Your smart meter tells your utility exactly how much power you use and when you use it. With
-                this information, your
-                utility charges you for the amount of power you use at off-peak, mid-peak and on-peak times.</p>
-
-            <h3>REASONS FOR DIFFERENT PRICES</h3>
-            <p><strong>WHEN DEMAND IS LOW</strong> and fewer people are using power, lower-cost electricity is
-                available from
-                sources like nuclear
-                and large hydroelectric systems.</p>
-            <p><strong>WHEN DEMAND RISES</strong> during the day, the province’s supply of lower-cost
-                electricity is used up,
-                and more expensive
-                sources need to be used.</p>
-        </section>
-        <!-- SECTION 3 -- GRAPHS -->
-        <section class="row">
-            <!-- GRAPH HEADERS -->
-            <header class="row">
-                <h3>PRICE PERIODS</h3>
-                <h3>WEEKDAYS</h3>
-                <h3>WEEKENDS & HOLIDAYS</h3>
-            </header>
-            <div class="row">
-                <!-- GRAPH LEGEND -->
-                <div class="col-sm col-3">
-                    <ul>
-                        <li>
-                            <ul>
-                                <li>
-                                    <h4>OFF-PEAK:</h4>
-                                </li>
-                                <li>
-                                    <p>Evenings, weekends and holidays</p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul>
-                                <li>
-                                    <h4>MID-PEAK:</h4>
-                                </li>
-                                <li>
-                                    <p>Daytime, but not the
-                                        highest-use periods
-                                        of the day</p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul>
-                                <li>
-                                    <h4>ON-PEAK:</h4>
-                                </li>
-                                <li>
-                                    <p>The high-demand hours
-                                        during the day</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- GRAPH 1 -->
-                <div class="col-sm col-3">
-                    <div>
-                        <!-- GRAPH 1 GOES HERE -->
-                    </div>
-                    <ul>
-                        <li><strong>SUMMER</strong></li>
-                        <li>May 1 - Oct 31</li>
-                    </ul>
-                    <p>Electricity use peaks
-                        during the hottest part of
-                        the afternoon, when air
-                        conditioners are running
-                        on high.
-                    </p>
-                </div>
-                <!-- GRAPH 2 -->
-                <div class="col-sm col-3">
-                    <div>
-                        <!-- GRAPH 2 GOES HERE -->
-                    </div>
-                    <ul>
-                        <li><strong>WINTER</strong></li>
-                        <li>Nov 1- Apr 30</li>
-                    </ul>
-                    <p>Less daylight means electricity
-                        use peaks twice: once in the
-                        morning when people wake up
-                        and turn on their lights and
-                        appliances, and again when
-                        people get home from work</p>
-                </div>
-                <!-- GRAPH 3 -->
-                <div class="col-sm col-3">
-                    <div>
-                        <!-- GRAPH 3 GOES HERE -->
-                    </div>
-                </div>
-
-
-            </div>
-
-        </section>
-        <!-- SECTION 4 -->
-        <section class="row">
-            <h2>MANAGING YOUR ELECTRICITY USE</h2>
-            <p>Did you know about 60% of energy costs in a typical home are spent on heating and cooling? To manage
-                electricity use, try
-                conserving power and shifting some usage to evenings and weekends. Visit these websites for more
-                tips:</p>
-            <ul>
-                <li>
-                    <ul>
-                        <li>10 Smart Meter Lane
-                        </li>
-                        <li><a href="https://ieso.ca/house">ieso.ca/house</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>saveONenergy</li>
-                        <li><a href="https://saveonenergy.ca">saveonenergy.ca</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li>Ministry of Energy</li>
-                        <li><a href="https://ontario.ca/energy">ontario.ca/energy</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </article>
-
-
-
-
-    <!-- </main> -->
-    <!-- <footer></footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="chart.js"></script>
 </body>
 
 </html>

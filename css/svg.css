@@ -2,3 +2,23 @@
     height: 150px;
     width: 50px;
 }
+
+.svg.arrow {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+}
+
+.svg.calc {
+    height: 70px;
+    position: relative;
+}
+
+.svg.ontario {
+    height: 30px;
+}
+
+
+.svg.half-circle {
+ height: 65px;    
+}
